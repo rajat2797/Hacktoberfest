@@ -1,0 +1,112 @@
+@import
+  url(https://fonts.googleapis.com/css?family=Rasa:300&400
+  ); 
+.logo
+{
+  
+  font-size:  70px;
+  font-weight:1000;
+  text-align : left;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: solid;
+  margin: 30px 0px 10px 50px;
+  border-radius: 30px;
+}
+.quote-box
+{
+  
+    
+  
+  background: rgba(0,0,0,0.4);
+  
+  text-align:center;
+  height:auto ;
+  width:500px;
+  color: #ffffff;
+  margin:8% auto auto auto ;
+  border-radius:20px;
+  padding-top:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+.quote-text {
+  
+  font-size:20px;
+  
+   }
+.footer
+{
+  width:500px;
+  margin:8% auto auto auto ;
+  font-size:20px;
+  text-align: center;
+  background:rgba(0,0,0,0.4);
+  color: white;
+}
+html,body{
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.button{
+  width:500px;
+  margin-left:400px;
+  margin-bottom:400px;
+ }
+.buttons{
+  background-color:#ffffff;
+ 
+  height: 50px;
+  margin-left:8px;
+  margin-top:20px;
+  padding-left:8px;
+  padding-right:8px;
+  border-radius:7px;
+  cursor:pointer;
+      &:hover {
+        opacity:0.8;
+      }
+}
+i{
+  
+  font-size:1.0em;
+  
+    
+}
+ 
+
+.author{
+  text-align:right;
+  font-size: 20px;
+}    
+#facebook{
+  float:left;
+  color:#4d94ff;
+  padding-top:7px;
+  font-size:2.0em;
+  width:50px;
+  
+}
+#twitter{
+  float:left;
+   color:#4d94ff;
+  padding-top:7px;
+  font-size:2.0em;
+  width:50px;
+  
+}
+#newquote{
+  font-size:20px !important;
+  float:right;
+  color:#4d94ff;
+  padding-top:9px;
+  font-size:2.0em;
+  width:auto;
+  
+}
